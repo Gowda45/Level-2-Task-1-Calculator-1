@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button[type="button"] {
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  ul li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  ul li.completed-task {
+    background-color: #d9d9d9;
+  }
+  
+  ul li .task-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  ul li .task-buttons button {
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+  }
+  
